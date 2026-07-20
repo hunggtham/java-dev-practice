@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS practice_user (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255),
+    phone VARCHAR(50)
+);
+CREATE TABLE IF NOT EXISTS practice_product (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    price DECIMAL(10, 2) NOT NULL
+);
